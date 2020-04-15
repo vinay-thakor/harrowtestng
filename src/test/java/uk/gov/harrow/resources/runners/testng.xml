@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="testsuite" verbose="1" >
+
+    <listeners>
+        <listener class-name="uk.gov.harrow.listeners.Listeners"></listener>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"></listener>
+    </listeners>
+
+    <test name="Login And Service Test" >
+        <classes>
+            <class name="uk.gov.harrow.TestSuite.LoginAndServiceTest" />
+
+        </classes>
+    </test>
+
+    <test name="Login And Service Test1" >
+        <classes>
+            <class name="uk.gov.harrow.TestSuite.LoginAndServiceTest1" />
+
+        </classes>
+    </test>
+
+</suite>
