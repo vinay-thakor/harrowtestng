@@ -1,8 +1,4 @@
 package uk.gov.harrow.browserselector;
-/*
-* CREATED BY - R MAK --
- */
-
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;

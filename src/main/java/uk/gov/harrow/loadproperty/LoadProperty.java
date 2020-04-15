@@ -1,7 +1,4 @@
-package uk.gov.harrow.loadproperty;/*
-Ravi's Creation
-Date of Creation :-
-*/
+package uk.gov.harrow.loadproperty;
 
 import java.io.FileInputStream;
 import java.io.IOException;
